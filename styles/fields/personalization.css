@@ -1,0 +1,103 @@
+@import url(color-utils.css);
+
+.color-inner{
+  display: flex;
+  
+  gap: .75rem;
+}
+
+.color-opt{
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--shape-button);
+  & label{
+    all: unset;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+  }
+
+  & input{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+  }
+
+  & div{
+    position: absolute;
+    border-radius: 50%;
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  &:hover, &:focus, &:has(:checked){
+    appearance: none;
+    border-radius: 50%;
+    outline: 2px solid var(--brand-light);
+  }
+}
+
+.perso-radio-wrapper{
+  width: 100%;
+
+  & label{
+    font: var(--body-sm);
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+  }
+}
+
+.perso-radio-wrapper + .perso-radio-wrapper{
+  margin-top: 1.75rem;
+}
+
+
+.event-theme{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.375rem, 1fr));
+  gap: .5rem;
+}
+
+.theme-opt{
+  background-color: var(--shape-button);
+  position: relative;
+  text-align: center;
+  border-radius: .5rem;
+  padding: .188rem .188rem .438rem .188rem;
+  border: 1px solid var(--input-stroke);
+
+  & label{
+    all: unset;
+    color: var(--text-heading);
+    font: var(--body-sm);
+  }
+
+  & img{
+    border-radius: .25rem;
+    margin-bottom: .5rem;
+  }
+
+  & input{
+    all: unset;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover, &:focus, &:has(:checked){
+    appearance: none;
+    outline: 2px solid var(--brand-light);
+  }
+}
+

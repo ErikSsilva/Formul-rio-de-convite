@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --font-baloo2: "Baloo 2", sans-serif;
+  --font-openSans: "Open Sans", sans-serif;
+  --font-lackerli: "Leckerli One", cursive;
+
+  --logo: 400 2.5rem var(--font-lackerli) ;
+
+  --heading-md: 700 1.75rem var(--font-baloo2);
+  --heading-sm: 700 1.125rem var(--font-baloo2);
+
+  --body-md: 1rem var(--font-openSans);
+  --body-sm: 0.875rem var(--font-openSans);
+  --body-xs: 0.75rem var(--font-openSans);
+
+  --brand-light:#59B2FF;
+  --brand-mid:#3487CF;
+  --brand-dark:#1D6FB6;
+
+  --feedback-alert:#FF5959;
+
+  --input-base:#1C1F21;
+  --input-stroke:#363B40;
+  --input-placeholder:#869198;
+
+  --shape-background:#131516;
+  --shape-body:#212427;
+  --shape-button:#2D3136;
+  --shape-hover:#383D42;
+
+  --text-body:#C8CDD0;
+  --text-heading:#F9F9F9;
+
+
+}
+
+body{
+  overflow: hidden;
+  background-color: var(--shape-background);
+}
+
+img{
+  width: 100%;
+}
