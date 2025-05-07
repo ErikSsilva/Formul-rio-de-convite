@@ -19,7 +19,7 @@ legend {
   font: var(--heading-sm);
   margin-bottom: 1.5rem;
 
-  img{
+  & img{
     width: 1.5rem;
   }
 }

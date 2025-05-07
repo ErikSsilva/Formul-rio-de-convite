@@ -13,30 +13,30 @@ aside{
 
   position: relative;
 
-  .tittle{
+  & .tittle{
     position: absolute;
     color: wheat;
     padding: 2rem;
 
-    img{
+    & img{
       width: 3rem;
       border-radius: 0;
       margin-bottom: 1rem;
     }
 
-    h1{
+    & h1{
       font: var(--logo);
       color: #FF598B;
       margin-bottom: .5rem;
     }
 
-    p{
+    & p{
       font-family: var(--font-openSans);
       color: var(--text-heading);
     }
   }
 
- img{
+ & img{
   object-fit: cover;
   height: 100%;
   border-radius: .75rem;
@@ -58,7 +58,7 @@ main{
   margin: auto;
   padding-block: 5rem;
 
-  h1{
+  & h1{
     font: var(--heading-md);
     margin-bottom: 2.5rem;
   }

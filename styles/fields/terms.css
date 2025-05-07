@@ -21,25 +21,22 @@
   
  }
  
- label{
+ & label{
   all: unset;
   margin-left: .75rem;
   font: var(--body-sm);
   color: var(--text-body);
   cursor: pointer;
 
-  a {
+  & a {
     color: var(--brand-light);
-
-
-    
   }
 
 
  }
 
   
-  .checkbox-image{
+  & .checkbox-image{
     width: 1.25rem;
     height: 1.25rem;
     background-image: url(../../assets/icons/checkbox-default.svg);
@@ -47,13 +44,13 @@
   }
 
   &:focus-within, &:hover{
-    .checkbox-image{
+    & .checkbox-image{
       background-image: url(../../assets/icons/checkbox-hover.svg);
     }
   }
 
   &:has(:checked){
-    .checkbox-image{
+    & .checkbox-image{
       background-image: url(../../assets/icons/checkbox-checked.svg);
     }
   }

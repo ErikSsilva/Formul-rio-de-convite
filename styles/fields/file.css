@@ -1,6 +1,6 @@
 .file-wrapper{
 
-  label{
+  & label{
     margin-bottom: .5rem;
   }
 }
@@ -32,7 +32,7 @@
   &:hover, &:has(input:focus){
 
 
-    .file-image{
+    & .file-image{
       outline: 1px solid var(--brand-light);
     }
   }
@@ -53,7 +53,7 @@
   color: var(--text-heading);
   border-radius: .5rem;
   
-  img{
+  & img{
     width: 1rem;
   }
 

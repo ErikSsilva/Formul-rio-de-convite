@@ -32,7 +32,7 @@ input[type="radio"],input[type="checkbox"]{
   justify-items: flex-start;
   display: flex;
   display: none;
-  img{
+  & img{
     width: 1rem;
   }
   
@@ -70,7 +70,7 @@ label {
 
   &:has(:invalid){
 
-    .error{
+    & .error{
       display: block;
     }
   }
@@ -81,7 +81,7 @@ label {
   display: flex;
   justify-content: flex-end;
  
-  button{
+  & button{
     all: unset;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ label {
     }
   }
 
-  img{
+  & img{
     width: 1.25rem;
   }
   
